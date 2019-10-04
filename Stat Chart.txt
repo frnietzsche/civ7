@@ -1,0 +1,9 @@
+1= cannot do anything related to said stat, ie: cannot run
+2= can do things related to stat, but very poorly ie: more like speedwalking
+3= can do things related to stat, but not very well ie: a jogging pace
+4= slightly below average ie: can run but is a slow runner
+5= average ie: can run
+6= slightly above average ie: faster than normal
+7= athlete level ie: self explanitory
+8= olympic level ie: self explanitory
+9= the best you can be ie: Usain Bolt
