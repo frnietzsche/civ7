@@ -2,6 +2,8 @@
 
 Project codename: CIV VII Bible
 
+### People
+
 Currently, we are working on creating people’s stats and automatically increasing their age.
 
 Semi-permanent stats:
@@ -15,6 +17,8 @@ Semi-permanent stats:
 * Aggression
 * Attractiveness(?)
 * Necessary Consumption
+* Weight
+* Height
 
 Impermanent stats:
 * Age
@@ -31,3 +35,8 @@ Suggested naming systems:
 * ???
 
 Height and weight system implemented. More height means higher speed and higher awareness. Higher weight (muscle mass) increases strength, but decreases speed(?).
+
+Weight is causing some issues, but we're working on the details.
+
+### Land
+
