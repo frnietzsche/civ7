@@ -36,7 +36,7 @@ Suggested naming systems:
 
 Height and weight system implemented. More height means higher speed and higher awareness. Higher weight (muscle mass) increases strength, but decreases speed(?).
 
-Weight is causing some issues, but we're working on the details.
+Weight issues have been solved
 
 Similarly, reproduction is having some issues with creating a child that is a person.
 
