@@ -38,5 +38,7 @@ Height and weight system implemented. More height means higher speed and higher 
 
 Weight is causing some issues, but we're working on the details.
 
+Similarly, reproduction is having some issues with creating a child that is a person.
+
 ### Land
 
