@@ -202,7 +202,8 @@ class Person:
             
 
 
-        
+        #Remove the apostrophies if you want the program to print the stats EVERY time you run it
+        '''
         print('Weight:',self.weight,'lbs')
         print('Height:',self.height,'cm')
         if self.gender==(1):
@@ -222,7 +223,7 @@ class Person:
         print('Agression:',self.aggression)
         print('Ingenuity:',self.indust)
         print('Consumption Rate:',self.consumption,' units per cycle')
-        
+        '''
 
 y=1
 for x in range(50):
