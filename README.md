@@ -28,7 +28,7 @@ Impermanent stats constantly change. eg: age increases each cycle
 
 Currently, we are experimenting with stats affecting other stats. ie: A higher speed stat means that it’s more likely for a Sim to have higher stamina.
 
-Max is working on reproduction.
+Max is working on reproduction (not the most rehearsed on the topic).
 
 Suggested naming systems:
 * Adding the numbers of the parents?
