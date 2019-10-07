@@ -33,6 +33,7 @@ Max is working on reproduction (not the most rehearsed on the topic).
 Suggested naming systems:
 * Adding the numbers of the parents?
 * ???
+* uhhh
 
 Height and weight system implemented. More height means higher speed and higher awareness. Higher weight (muscle mass) increases strength, but decreases speed(?).
 
