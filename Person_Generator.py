@@ -226,22 +226,3 @@ class Person:
         print('Agression:',self.aggression)
         print('Ingenuity:',self.indust)
         print('Consumption Rate:',self.consumption,' units per cycle')
-
-y=1
-for x in range(20):
-    print('Person #',y)
-    i=Person('Male')
-    print()
-    y=y+1
-
-for x in range(20):
-    print('Person #',y)
-    i=Person('Female')
-    print()
-    y=y+1
-
-for x in range(10):
-    print('Person #',y)
-    i=Person()
-    print()
-    y=y+1
