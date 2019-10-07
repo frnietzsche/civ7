@@ -38,7 +38,19 @@ Height and weight system implemented. More height means higher speed and higher 
 
 Weight issues have arisen with error messages (EDIT: Weight issues solved).
 
-Similarly, reproduction is having some issues with creating a child that is a person.
+Similarly, reproduction is having some issues with creating a child that is a person (EDIT: Problems solved(?) with the implementation of the Child class).
 
 ### Land
 
+
+
+
+
+
+## MEETINGS
+
+Group meeting 1: Discussion of current state of our programs and what to do going forward.
+
+Character creation is effectively done (for now).
+
+We're going to work on a small test area to... well, test the programs first.
