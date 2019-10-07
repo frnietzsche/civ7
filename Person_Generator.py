@@ -19,16 +19,16 @@
 
 import random
 class Person:
-
+    
     def __init__(self, gender='None'):
 
         self.gender=gender
-
+        
         gU=gender.upper()
-
+        
         if gender==('None'):
             gender=random.randrange(0, 2)
-
+        
         self.curiosity=random.randrange(1, 10)
         self.aggression=random.randrange(1, 10)
         self.smarts=random.randrange(1, 10)
@@ -42,16 +42,16 @@ class Person:
         self.stamina=0
         self.awareness=0
         consumption1=0
-        comumption2=0
+        comdumption2=0
         self.indust=0
         self.consumption=0
 
 
         #########WEIGHT & HEIGHT########
-
+        
         #Male
         if gU==('MALE') or gender==(0):
-
+            
             hStart=170
             hR=random.randrange(1, 31)
             self.height=hStart+hR
@@ -63,7 +63,7 @@ class Person:
                 self.weight=random.randrange(160, 171)
 
             elif self.height>=190 and self.height<=200:
-                self.weight=random.randrange(171, 245)
+                self.weight=random.randrange(171, 245)        
 
         #Female
         if gU==('FEMALE') or gender==(1):
@@ -81,13 +81,13 @@ class Person:
             elif self.height>=180 and self.height<=190:
                 self.weight=random.randrange(131, 188)
 
-
-
+        
+    
         ########STREGTH##############
 
         #Female
         if gU==('FEMALE') or gender==(1):
-
+            
             if self.weight<=188 and self.weight>131:
                 self.strength=random.randrange(7, 10)
 
@@ -99,7 +99,7 @@ class Person:
 
         #Male
         if gU==('MALE') or gender==(0):
-
+            
             if self.weight<=245 and self.weight>171:
                 self.strength=random.randrange(7, 10)
 
@@ -144,7 +144,7 @@ class Person:
         staminaAve=stamina1+stamina2
         staminaTot=staminaAve/2
         self.stamina=int(round(staminaTot, 0))
-
+        
         ########INDUST################
         if self.smarts<=9 and self.smarts>6 or self.curiosity<=9 and self.curiosity>6:
             self.indust=random.randrange(7, 10)
@@ -159,7 +159,7 @@ class Person:
 
         #Female
         if gU==('FEMALE') or gender==(1):
-
+                    
             if self.weight<=188 and self.weight>131:
                 consumption1=random.randrange(7, 10)
 
@@ -206,10 +206,10 @@ class Person:
             consumptionAve=consumption1+consumption2
             consumptionTot=consumptionAve/2
             self.consumption=int(round(consumptionTot, 0))
-
+'''
         print('Weight:',self.weight,'lbs')
         print('Height:',self.height,'cm')
-
+        
         if gU==('FEMALE') or gender==(1):
             print('Gender: Female')
 
@@ -226,3 +226,24 @@ class Person:
         print('Agression:',self.aggression)
         print('Ingenuity:',self.indust)
         print('Consumption Rate:',self.consumption,' units per cycle')
+
+
+y=1
+for x in range(20):
+    print('Person #',y)
+    i=Person('Male')
+    print()
+    y=y+1
+
+for x in range(20):
+    print('Person #',y)
+    i=Person('Female')
+    print()
+    y=y+1
+
+for x in range(10):
+    print('Person #',y)
+    i=Person()
+    print()
+    y=y+1
+'''
