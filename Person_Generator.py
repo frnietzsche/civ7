@@ -1,4 +1,4 @@
-#Natural Selection
+#Person Generator
 #Stone Provo
 
 ###EVERYONE CAN WALK
@@ -16,19 +16,19 @@
 9= the best you can be ie: Usain Bolt
 '''
 ##########################################
-
 import random
+
 class Person:
     
     def __init__(self, gender='None'):
 
         self.gender=gender
-        
         gU=gender.upper()
         
-        if gender==('None'):
+        if self.gender==('None'):
             gender=random.randrange(0, 2)
-        
+
+        self.health=10
         self.curiosity=random.randrange(1, 10)
         self.aggression=random.randrange(1, 10)
         self.smarts=random.randrange(1, 10)
@@ -206,10 +206,10 @@ class Person:
             consumptionAve=consumption1+consumption2
             consumptionTot=consumptionAve/2
             self.consumption=int(round(consumptionTot, 0))
-'''
+
         print('Weight:',self.weight,'lbs')
         print('Height:',self.height,'cm')
-        
+        print('Health:',self.health)
         if gU==('FEMALE') or gender==(1):
             print('Gender: Female')
 
@@ -220,7 +220,6 @@ class Person:
         print('Strength:',self.strength)
         print('Intelligence:',self.smarts)
         print('Curiosity:',self.curiosity)
-
         print('Stamina:',self.stamina)
         print('Awareness:',self.awareness)
         print('Agression:',self.aggression)
@@ -228,6 +227,250 @@ class Person:
         print('Consumption Rate:',self.consumption,' units per cycle')
 
 
+    ######TRAVEL#######
+    def travel(self):
+
+        if self.curiosity<=9 and self.curiosity>6:
+
+            if self.stamina<=9 and self.stamina>6:
+                        travelDis1=3
+
+            if self.stamina<=6 and self.stamina>3:
+                        travelDis1=2
+
+            if self.stamina<=3 and self.stamina>=0:
+                        travelDis1=1
+
+            if self.awareness<=9 and self.awareness>6:
+                        travelDis2=3
+
+            if self.awareness<=6 and self.awareness>3:
+                        travelDis2=2
+
+            if self.awareness<=3 and self.awareness>=0:
+                        travelDis2=1
+
+        if self.curiosity<=6 and self.curiosity>3:
+
+            if self.stamina<=9 and self.stamina>6:
+                        travelDis1=2
+
+            if self.stamina<=6 and self.stamina>3:
+                        travelDis1=1
+
+            if self.stamina<=3 and self.stamina>=0:
+                        travelDis1=0
+
+            if self.awareness<=9 and self.awareness>6:
+                        travelDis2=2
+
+            if self.awareness<=6 and self.awareness>3:
+                        travelDis2=1
+
+            if self.awareness<=3 and self.awareness>=0:
+                        travelDis2=0
+
+        if self. curiosity<=3 and self.curiosity>=0:
+
+            if self.stamina<=9 and self.stamina>6:
+                        travelDis1=1
+
+            if self.stamina<=6 and self.stamina>3:
+                        travelDis1=0
+
+            if self.stamina<=3 and self.stamina>=0:
+                        travelDis1=0
+
+            if self.awareness<=9 and self.awareness>6:
+                        travelDis2=1
+
+            if self.awareness<=6 and self.awareness>3:
+                        travelDis2=0
+
+            if self.awareness<=3 and self.awareness>=0:
+                        travelDis2=0
+                        
+        travelDisAve=travelDis1+travelDis2
+        travelDisTot=travelDisAve/2
+        self.travelDis=int(round(travelDisTot, 0))
+
+        print("Person moved",self.travelDis,'Tiles')
+        #########DONE TRAVEL#############
+
+    ######CRAFTING#####
+    def craft(self):
+        
+
+        if self.indust==9:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=90:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==8:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=80:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==7:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=70:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==6:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=60:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==5:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=50:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==4:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=40:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==3:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=30:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==2:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=20:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==1:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=10:
+                self.craft=True
+
+            else:
+                self.craft=False
+
+        if self.indust==0:
+            craftR=random.randrange(1, 100)
+
+            if craftR<=5:
+                self.craft=True
+
+            else:
+                self.craft=False
+                
+        if self.craft==True:
+            print("Person was able to craft something!")
+            c=1
+            
+        if self.craft==False:
+            print("Person was not able to craft something")
+            c=0
+            
+        #####END OF CRAFTING#######
+    
+    ###BEAST ATTACK#####
+    def beastAtk(self):
+        sg=1
+
+        
+        if self.strength<=9 and self.strength>6 or self.speed<=9 and self.speed>6:
+            if sg==1: 
+                beastR=random.randrange(1, 100)
+                sg=sg+1
+
+                #Surviving unscathed
+                if beastR>33 or self.craft==True:
+                    damage=0
+                      
+                #Taking little damage but probably survives
+                elif beastR<=33 and self.craft==False:
+                    damage=random.randrange(1, 3)
+                    self.health=self.health-damage
+            
+        if self.strength<=6 and self.strength>3 or self.speed<=6 and self.speed>3:
+            if sg==1:
+                beastR=random.randrange(1, 100)
+                sg=sg+1
+                
+                #Survivng unscathed
+                if beastR<=100 and beastR>75 or self.craft==True:
+                    damage=0
+                
+                #Taking some damage but probably survives
+                elif beastR<=75 and beastR>25 and self.craft==False:
+                    damage=random.randrange(1, 5)
+                    self.health=self.health-damage
+
+                #Taking critical damage, could be killed
+                elif beastR<=25 and self.craft==False:
+                    damage=random.randrange(5, 11)
+                    self.health=self.health-damage
+                
+        if self.strength<=3 and self.strength>0 or self.speed<=3 and self.speed>0:
+            if sg==1:
+                sg=sg+1
+                beastR=random.randrange(1, 100)
+
+                #Whatever was crafted saved them and they escaped unharmed
+                if self.craft==True:
+                    damage=0
+                
+                #Taking big damage, will most likely survive
+                elif beastR>50 and self.craft==False:
+                    damage=random.randrange(1, 7)
+                    self.health=self.health-damage
+                    
+                #Taking critical damage, will likely die
+                elif beastR<=50 and self.craft==False:
+                    damage=random.randrange(7, 11)
+                    self.health=self.health-damage
+                
+        print('Person took',damage,'points of damage')
+                
+        if self.health<=0:
+            print('Person has died')
+
+        else:
+            print('Person now has',self.health,'points of health')
+        
+
+
+#Envoirmental danger other than animals?
+#finding a mate?
+'''
 y=1
 for x in range(20):
     print('Person #',y)
@@ -247,3 +490,6 @@ for x in range(10):
     print()
     y=y+1
 '''
+i=Person()
+print()
+i.beastAtk()
