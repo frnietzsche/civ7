@@ -390,7 +390,7 @@ class Person:
 
             else:
                 self.craft=False
-                
+        '''
         if self.craft==True:
             print("Person was able to craft something!")
             c=1
@@ -398,12 +398,14 @@ class Person:
         if self.craft==False:
             print("Person was not able to craft something")
             c=0
-            
+        '''
+        
         #####END OF CRAFTING#######
     
     ###BEAST ATTACK#####
     def beastAtk(self):
         sg=1
+        #sg prevents multiple run throughs if the character has majorly different speed and strength
 
         
         if self.strength<=9 and self.strength>6 or self.speed<=9 and self.speed>6:
@@ -412,11 +414,11 @@ class Person:
                 sg=sg+1
 
                 #Surviving unscathed
-                if beastR>33 or self.craft==True:
+                if beastR<=100 and beastR>33 or self.craft==True:
                     damage=0
                       
                 #Taking little damage but probably survives
-                elif beastR<=33 and self.craft==False:
+                elif beastR<=33 and beastR>=0 and self.craft==False:
                     damage=random.randrange(1, 3)
                     self.health=self.health-damage
             
@@ -457,9 +459,10 @@ class Person:
                 elif beastR<=50 and self.craft==False:
                     damage=random.randrange(7, 11)
                     self.health=self.health-damage
-                
+                      
         print('Person took',damage,'points of damage')
-                
+    
+        
         if self.health<=0:
             print('Person has died')
 
@@ -492,4 +495,5 @@ for x in range(10):
 '''
 i=Person()
 print()
+i.craft()
 i.beastAtk()
