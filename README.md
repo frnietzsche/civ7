@@ -57,3 +57,7 @@ Group meeting 1: Discussion of current state of our programs and what to do goin
 Character creation is effectively done (for now).
 
 We're going to work on a small test area to... well, test the programs first.
+
+## Quotes
+
+"I was trying to breed children." - Max
