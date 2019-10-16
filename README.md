@@ -69,3 +69,5 @@ We're going to work on a small test area to... well, test the programs first.
 "They're sleeping with their siblings, not parents." - Max
 
 "rowr, XD" - Declan
+
+"I feel like the whole reason we're incorporating family is to prevent incest." - Max
