@@ -43,6 +43,8 @@ Similarly, reproduction is having some issues with creating a child that is a pe
 
 Fortnite 2
 
+Some issues with stats being way too low or high when it comes to several generations have arisen... But hey, it's evolution!
+
 ### Land
 
 
@@ -63,3 +65,5 @@ We're going to work on a small test area to... well, test the programs first.
 "I was trying to breed children." - Max
 
 "Oh, and they're still mating with their parents." - Max
+
+"They're sleeping with their siblings, not parents." - Max
