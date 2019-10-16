@@ -71,3 +71,5 @@ We're going to work on a small test area to... well, test the programs first.
 "rowr, XD" - Declan
 
 "I feel like the whole reason we're incorporating family is to prevent incest." - Max
+
+"That's hot. What?" - Max
