@@ -5,57 +5,64 @@ class Person:
         self.strength=0
         self.speed=0
         self.intelligence=0
+        self.endurance=0
+        self.gender=random.randrange(0, 2)
         
         ###STRENGTH###
-        strengthR=random.randrange(1, 16)
+        strengthR=random.randrange(1, 20)
 
-        if strengthR<5 and strengthR>0:
+        if strengthR<56 and strengthR>0:
             self.strength=random.randrange(1, 4)
 
-        if strengthR<11 and strengthR>=5:
+        if strengthR<=20 and strengthR>10:
             self.strength=random.randrange(4, 7)
 
-        if strengthR<=15 and strengthR>=11:
+        if strengthR<11 and strengthR>=6:
             self.strength=random.randrange(7, 10)
 
         ###SPEED###
-        speedR=random.randrange(1, 16)
+        speedR=random.randrange(1, 20)
 
-        if speedR<5 and speedR>0:
+        if speedR<6 and speedR>0:
             self.speed=random.randrange(1, 4)
 
-        if speedR<11 and speedR>=5:
+        if speedR<=20 and speedR>10:
             self.speed=random.randrange(4, 7)
 
-        if speedR<=15 and speedR>=11:
+        if speedR<11 and speedR>=6:
             self.speed=random.randrange(7, 10)
 
         ###INTELLIGENCE###
-        intelligenceR=random.randrange(1, 16)
+        intelligenceR=random.randrange(1, 20)
 
-        if intelligenceR<5 and intelligenceR>0:
+        if intelligenceR<6 and intelligenceR>0:
             self.intelligence=random.randrange(1, 4)
 
-        if intelligenceR<11 and intelligenceR>=5:
+        if intelligenceR<=20 and intelligenceR>10:
             self.intelligence=random.randrange(4, 7)
 
-        if intelligenceR<=15 and intelligenceR>=11:
+        if intelligenceR<11 and intelligenceR>=6:
             self.intelligence=random.randrange(7, 10)
 
         ###ENDURANCE###
         enduranceR=random.randrange(1, 16)
 
-        if enduranceR<5 and enduranceR>0:
+        if enduranceR<6 and enduranceR>0:
             self.endurance=random.randrange(1, 4)
 
-        if enduranceR<11 and enduranceR>=5:
+        if enduranceR<=20 and enduranceR>10:
             self.endurance=random.randrange(4, 7)
 
-        if enduranceR<=15 and enduranceR>=11:
+        if enduranceR<11 and enduranceR>=6:
             self.endurance=random.randrange(7, 10)
 
 
-        
+        if self.gender==(0):
+            print('Gender: Male')
+
+        if self.gender==(1):
+            print('Gender: Female')
+
         print('Strength:',self.strength)
         print('Speed:',self.speed)
         print('Intelligence:',self.intelligence)
