@@ -87,3 +87,6 @@ We're going to work on a small test area to... well, test the programs first.
 "Garfield deserves nothing but pain. Garfield deserves pain and suffering." - Stone
 
 "Should we let half-sibling mate?" - Max
+
+"Garfield is Batman, though." - Stone
+
