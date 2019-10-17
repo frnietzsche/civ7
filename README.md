@@ -83,3 +83,5 @@ We're going to work on a small test area to... well, test the programs first.
 "Garfield has always been female." - Stone
 
 "And Garf is born." - Max
+
+"Garfield deserves nothing but pain. Garfield deserves pain and suffering." - Stone
