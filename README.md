@@ -74,7 +74,7 @@ We're going to work on a small test area to... well, test the programs first.
 
 "That's hot. What?" - Max
 
-"Zues had a side-ho." - Max
+"Zeus had a side-ho." - Max
 
 "Yoshi has committed several crimes including: shooting an unarmed man in the streets, tax evasion, statutory rape, multiple cases of homicide, vandalism, robbery, failure to stay at the crime scene, aggravated assault, arson, theft, motor vehicle theft, first and second degree murder, evasion of police forces, and multiple breaches of probation. Yoshi has arms in his possession such as : an AR-15, exactly 15 Glock-9s, an RPG-7, 3 M4-A1s, no less than 18 C7-17s, and rumoured nuclear capabilities Yoshi owns several gangs and mafias, however it is unknown how many are under his control. Many believe that the 2009 Vancouver gang war, one of the arguable biggest gang wars in history, was created by Yoshi in order to quote "Cull the weak". In conclusion Yoshi is one of the most deadly men to ever live, along with his several gangs, Yoshi is never truly alone, meaning that any force sent to eliminate him has only resulted in the deaths of those sent." - Stone
 
