@@ -81,3 +81,5 @@ We're going to work on a small test area to... well, test the programs first.
 "Garfield is John's child." - Max
 
 "Garfield has always been female." - Stone
+
+"And Garf is born." - Max
