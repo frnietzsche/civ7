@@ -85,3 +85,5 @@ We're going to work on a small test area to... well, test the programs first.
 "And Garf is born." - Max
 
 "Garfield deserves nothing but pain. Garfield deserves pain and suffering." - Stone
+
+"Should we let half-sibling mate?" - Max
