@@ -168,4 +168,3 @@ liz=Person()
 print()
 
 garfield=mateCheck(john,liz)
-print(john.mate)
