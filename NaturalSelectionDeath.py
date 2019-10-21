@@ -5,20 +5,20 @@
 import random
 from NaturalSelectionCharCreate import Person
 
-alive=[]
+living=[]
 cemetary=[]
 archive=[]
 
 def deathCheck(person):
     death=False
     deathChance=random.randrange(0,100)
-    if person.age>20 and person.age<=25:
+    if person.age>10 and person.age<=20:
         if deathChance<=15:
             death=True
         else:
             death=False
 
-    elif person.age>25 and person.age<=30:
+    elif person.age>20 and person.age<=30:
         if deathChance<=30:
             death=True
         else:
@@ -49,21 +49,32 @@ def deathCheck(person):
             death=False
     
     if death==True:
+        person.alive=False
         cemetary.append(person)
+
+        if person in living:
+            living.remove(person)
+
         return cemetary
+        return living
 
     else:
-        alive.append(person)
-        return alive
+        if person not in living:
+            living.append(person)
+
+        return living
 
 for x in range(50):
     archive.append(Person())
-
-for x in range(len(archive)):
     archive[x].age=random.randrange(1,50)
-    if archive[x].death==False:
-        deathCheck(archive[x]) 
-        
-print(len(archive))
-print(len(cemetary))
-print(len(alive))
+ 
+for i in range(50):
+    for x in range(len(archive)):
+        if archive[x].alive==True:
+            deathCheck(archive[x])
+
+    print()
+    print("TRIAL #",i+1)
+    print("TOTAL:",len(archive))
+    print("DEAD:",len(cemetary))
+    print("LIVING:",len(living))
