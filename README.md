@@ -95,3 +95,5 @@ We're going to work on a small test area to... well, test the programs first.
 "A grandson can f*** her (yes, actual quote) grandma." - Max
 
 "Oh right, I was working on death." - Max
+
+"Hooray! People are dying! Hell yeah!" - Stone
