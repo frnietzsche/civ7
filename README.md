@@ -97,3 +97,5 @@ We're going to work on a small test area to... well, test the programs first.
 "Oh right, I was working on death." - Max
 
 "Hooray! People are dying! Hell yeah!" - Stone
+
+"Why is no-one dying?!" - Max
