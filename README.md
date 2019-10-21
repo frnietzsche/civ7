@@ -103,3 +103,5 @@ We're going to work on a small test area to... well, test the programs first.
 "Welcome to Furfest." - Stone
 
 "I made Thanos." - Max
+
+"I see my problem... I need to kill some kids!" - Max
