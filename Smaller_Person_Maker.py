@@ -7,11 +7,15 @@ class Person:
         self.intelligence=0
         self.endurance=0
         self.gender=random.randrange(0, 2)
+        self.mate=""
+        self.child=[]
+        self.alive=True
+        self.age=0
         
         ###STRENGTH###
         strengthR=random.randrange(1, 20)
 
-        if strengthR<56 and strengthR>0:
+        if strengthR<6 and strengthR>0:
             self.strength=random.randrange(1, 4)
 
         if strengthR<=20 and strengthR>10:
@@ -56,21 +60,14 @@ class Person:
         if enduranceR<11 and enduranceR>=6:
             self.endurance=random.randrange(7, 10)
 
+        ###AGE###
+        if self.alive==True:
+            self.age=self.age+1
 
-        if self.gender==(0):
-            print('Gender: Male')
+        
 
-        if self.gender==(1):
-            print('Gender: Female')
-
-        print('Strength:',self.strength)
-        print('Speed:',self.speed)
-        print('Intelligence:',self.intelligence)
-        print('Endurance:',self.endurance)
         
 y=1
 for x in range(50):
-    print('Person #',y)
     i=Person()
     y=y+1
-    print()
