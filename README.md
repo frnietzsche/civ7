@@ -99,3 +99,5 @@ We're going to work on a small test area to... well, test the programs first.
 "Hooray! People are dying! Hell yeah!" - Stone
 
 "Why is no-one dying?!" - Max
+
+"Welcome to Furfest." - Stone
