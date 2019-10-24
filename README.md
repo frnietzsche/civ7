@@ -107,3 +107,5 @@ We're going to work on a small test area to... well, test the programs first.
 "I see my problem... I need to kill some kids!" - Max
 
 "Because children exist, the world doesn't work." - Stone
+
+"I wanna eat someone's kneecaps now." - Nick
