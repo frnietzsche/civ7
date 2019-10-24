@@ -1,0 +1,10 @@
+Natural Selection Simulator Contribution
+
+
+Person Generator
+Made 2 person generators, one bigger one and one smaller one
+Bigger has more stats and some actions
+Smaller is used for testing purposes so that debugging is easier
+
+Reproduction
+Helped debug when max ran into problems
